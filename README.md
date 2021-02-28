@@ -6,18 +6,24 @@
 git clone https://github.com/yuricavalini/desafio280221.git
 ```
 
-2.  Navigate to the project root directory where you can find package.json to install/update the dependencies, run the command:
+2. Before we start the application, you'll need to create a database using PostgreSQL. You can call it by any name. Then, inside of server folder go to /src/config/env.js and add your database credentials.
+
+3. Now, navigate to the project root directory where you can find package.json to install/update the dependencies, You must run this command above inside of the root directory of both folders, server and web. Run the command:
 
 ```bash
-npm install or npm update
+npm install
 ```
 
-You must run this command above inside of the root directory of both folders, server and web.
-
-3.  If you chose to upgrade the packages, to check if any installed packages are currently outdated, run the command:
+4.  Inside of server root folder, run on terminal:
 
 ```bash
-npm outdated
+npm run dev
+```
+
+5.  Inside of web root folder, run on terminal:
+
+```bash
+npm start
 ```
 
 You are now ready to go. :rocket:
